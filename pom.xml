@@ -12,6 +12,7 @@
     <modules>
         <module>leaderboard</module>
         <module>bigfactorial</module>
+        <module>stockmerchant</module>
     </modules>
 
     <properties>
