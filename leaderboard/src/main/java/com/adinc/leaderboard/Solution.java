@@ -1,4 +1,4 @@
-package com.adinc;
+package com.adinc.leaderboard;
 
 import java.io.*;
 import java.util.*;

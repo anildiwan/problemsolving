@@ -1,4 +1,4 @@
-package com.adinc;
+package com.adinc.sockmerchant;
 
 /**
  * Hello world!
