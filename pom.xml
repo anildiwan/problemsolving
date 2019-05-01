@@ -12,7 +12,8 @@
     <modules>
         <module>leaderboard</module>
         <module>bigfactorial</module>
-        <module>stockmerchant</module>
+        <module>sockmerchant</module>
+        <module>countingvalleys</module>
     </modules>
 
     <properties>
