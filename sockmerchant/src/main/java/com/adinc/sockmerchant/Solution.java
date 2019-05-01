@@ -6,6 +6,7 @@ import java.security.*;
 import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.function.Function;
 import java.util.regex.*;
 import java.util.stream.Collectors;
 
@@ -16,7 +17,15 @@ public class Solution {
 
         int pairCount = 0;
 
-        pairCount = Arrays.stream(ar).boxed().collect(Collectors.groupingBy(i -> i.intValue())).values().stream().mapToInt(list1 -> list1.size() / 2).sum();
+        pairCount = Arrays.stream(ar)
+                .boxed()
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                .values()
+                .stream()
+                .mapToInt(i -> i.intValue() / 2)
+                .sum();
+
+        System.out.println(pairCount);
 
         return pairCount;
 

@@ -4,7 +4,7 @@ package com.adinc;
  * Hello world!
  *
  */
-public class App 
+public class Solution
 {
     public static void main( String[] args )
     {
