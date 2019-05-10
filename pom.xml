@@ -15,6 +15,7 @@
         <module>sockmerchant</module>
         <module>countingvalleys</module>
         <module>jumpingontheclouds</module>
+        <module>repeatedstring</module>
     </modules>
 
     <properties>
