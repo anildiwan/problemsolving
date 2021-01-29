@@ -16,6 +16,7 @@
         <module>countingvalleys</module>
         <module>jumpingontheclouds</module>
         <module>repeatedstring</module>
+        <module>largestpalindromicsubstring</module>
     </modules>
 
     <properties>
